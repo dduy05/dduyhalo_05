@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Jolly Lodger',cursive;
+    color: #ff3300;
+}
+header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    background-image: url(./images/png-clipart-halloween-background-material-halloween-halloween-background.png)
+}
+.social-icons{
+    position: absolute;
+    bottom: 20%;
+    left: 12%;
+}
+.social-icons i {
+    width: 85px;
+    margin-bottom: 100px;
+    display: inline-block;
+    color:white;
+    margin-right: 0px;
+    font-size: 55px;
+    transition: all .50s;
+    text-decoration: none;
+}
+.social-icons i:hover {
+    transform: scale(1.08) translateY(-8px);
+}
+#wp-products { 
+    padding-top:10px;
+    padding-bottom: 78px;
+    padding-left:134px;
+    padding-right:134px;
+}
+
+#wp-products h2 {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size:64px;
+    color:#242121;
+}
+#list-products {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#list-products .item {
+    
+    margin-bottom: 100px;
+    margin-right: 300px;
+    font-size: 25px;
+    width: 290px;
+    height: 374px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+#list-products .item img {
+    display: block;
+    margin:0px auto;
+    margin-top:17px;
+}
+
+#list-products .item .stars {
+
+    display: flex;
+    margin:0px auto;
+    width: 50%;
+}
+
+
+
+#list-products .item .desc {
+    text-align: center;
+    color:#626a67;
+}
+.btn{
+    padding-left: 220px;
+    
+}

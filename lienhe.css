@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Jolly Lodger',cursive;
+}
+header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    background-image: url(./images/free-000899-khung-den-cho-halloween-vector.jpg)
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 100px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(20px);
+    border-bottom: 2px solid rgba(255, 255, 255,.2);
+
+}
+nav .logo a{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+nav .logo a:hover{
+    color: #e8e4cb;
+    transition: .5s;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2.5rem;
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color:red;
+    transition: .5s;
+
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.navlist {
+    display: flex;
+}
+.navlist a{
+    margin: 0 28px;
+    color: var(--text-color);
+    font-size: 17px;
+    font-weight: 500;
+    transition: all .50s ease;
+    text-decoration: none;
+}
+.navlist a:hover{
+    color: var(--main-color);
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+section {
+    padding: 0 12%;
+}
+.social-icons{
+
+    position: absolute;
+    bottom: 20%;
+    left: 12%;
+}
+.social-icons i {
+  
+    display: inline-block;
+    color: black;
+    margin-right: 25px;
+    font-size: 55px;
+    transition: all .50s;
+    text-decoration: none;
+}
+.social-icons i:hover {
+    transform: scale(1.08) translateY(-8px);
+}
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.mt-8 {
+    margin-top: 8px ;
+}
+.mt-16 {
+    margin-top: 16px;
+}
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-half {
+    width: 50%;
+    float: right;
+    margin-top: 18px;
+}
+.col-third {
+    width: 33.33333%;
+}
+.col-full {
+    width: 100%;
+}
+.content-section {
+    margin: 3%;
+    padding: 10%;
+    text-align: center;
+}
+.content-section .contact-content {
+    text-align: left;
+}
+.contact-content {
+    width: 50%;
+    float: left;
+    margin-top: -25px;
+}
+.contact-info {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.contact-info i [class*="ti-"] {
+    
+    width: 30px;
+    display: inline-block;
+}
+.contact-form {
+    font-size: 15px;
+    text-align: left;
+}
+.contact-form .form-control {
+    padding: 10px;
+    border: 1px solid white;
+    width: 100%;
+}
+.contact-form .form-submit-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 16px;
+    float: right;
+}   

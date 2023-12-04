@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Jolly Lodger',cursive;
+    
+}
+header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    background-image: url(./images/pngtree-halloween-image_2968568.jpg);
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 100px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(20px);
+    border-bottom: 2px solid rgba(255, 255, 255,.2);
+
+}
+nav .logo a{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+nav .logo a:hover{
+    color: #e8e4cb;
+    transition: .5s;
+    
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2.5rem;
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color:red;
+    transition: .5s;
+
+}
+.dangki{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    font-size: 25px;
+    color:#fff;
+    margin-left: 150px;
+    margin-right: 150px;
+}
